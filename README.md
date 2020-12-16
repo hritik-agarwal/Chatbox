@@ -24,3 +24,7 @@ It is made using Node.js, Express and Socket.io
 * npm install -> to install all the node modules
 * npm run dev -> the app will start running
 * goto localhost:3000 in your browser to use the app
+
+## To see live demo
+
+(https://real-time-chat-box.herokuapp.com/)
