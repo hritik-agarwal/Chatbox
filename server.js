@@ -6,14 +6,14 @@ const msgObj = require('./messages');
 const {userJoin, getCurrUser, userLeave, getRoomUsers} = require("./users");
 
 const app = express();
+app.use(express.static(path.join(__dirname, 'public')));
 const server = http.createServer(app);
 const io = socketio(server);
 
 // setting up port
-const port = 3000 || process.env.PORT;
+const port = process.env.PORT || 3000;
 
 // setting up static folder
-app.use(express.static(path.join(__dirname, 'public')));
 
 const chatBot = "Bot";
 
