@@ -1,16 +1,16 @@
 # Chatbox
 
-Chatbox is a realtime chat application with websockets. 
+Chatbox is a realtime chat application with websockets.
 It is made using Node.js, Express and Socket.io
 
 ## Features Of Chatbox
 
-* The User can join multiple rooms.
-* Multiple users can join the same room.
-* The current room name and all the users currently in the room is shown in the left side of the chatbox.
-* Chatbox contain various rooms which are independent of each other. These are like different slack channels or discord rooms.
-* On joining, the user is shown a welcome message and rest of the users in that room are notified of the new user.
-* Similarly on leaving the room, rest of the users are notified of user leaving the group.
+- The User can join multiple rooms.
+- Multiple users can join the same room.
+- The current room name and all the users currently in the room is shown in the left side of the chatbox.
+- Chatbox contain various rooms which are independent of each other. These are like different slack channels or discord rooms.
+- On joining, the user is shown a welcome message and rest of the users in that room are notified of the new user.
+- Similarly on leaving the room, rest of the users are notified of user leaving the group.
 
 ## Screenshots
 
@@ -20,11 +20,15 @@ It is made using Node.js, Express and Socket.io
 
 ## To use the app
 
-* Clone the repository
-* npm install -> to install all the node modules
-* npm run dev -> the app will start running
-* goto localhost:3000 in your browser to use the app
+- Clone the repository
+- npm install -> to install all the node modules
+- npm run dev -> the app will start running
+- goto localhost:3000 in your browser to use the app
 
 ## To see live demo
 
-(https://real-time-chat-box.herokuapp.com/)
+1. Clone Repo
+2. Install modules by running (npm install)
+3. Run script (npm run start)
+4. Open multiple tabs in browser with url http://localhost:3000
+5. Join the room with different names and room and enjoy chatting
